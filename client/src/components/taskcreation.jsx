@@ -8,7 +8,7 @@ const Taskcreation = () => {
           })
   
     const handleinput=(e)=>{
-        e.preventDefault();
+  
         setTaskData({...taskData, [e.target.name]:e.target.value})
     }
     const handlesubmit=async()=>{
