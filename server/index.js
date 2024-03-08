@@ -23,6 +23,8 @@ db.on('close',()=>console.log("Connection closed to MongoDB"));
   app.use('/user', routes)
   app.use('/taskinput', routes)
   app.use('/task', routes)
+  app.use('/history', routes)
+  app.use('/historydata', routes)
 
 
 
